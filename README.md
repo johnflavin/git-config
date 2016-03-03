@@ -7,3 +7,5 @@ Clone the repo, then symlink the gitconfig into your `~`.
     $ ln -s <repo_path>/gitconfig .gitconfig
 
 Done.
+
+Though you will want to change the author name and email address if you aren't me, John Flavin.
