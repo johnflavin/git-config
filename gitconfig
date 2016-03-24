@@ -10,4 +10,4 @@
     co = checkout
     com = commit
     br = branch
-    l = log --branches --remotes --tags --graph --oneline --decorate
+    l = log --all --graph --oneline --decorate
