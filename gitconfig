@@ -12,5 +12,3 @@
     br = branch
     hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
     l = log --branches --remotes --tags --graph --oneline --decorate
-[branch]
-  autosetuprebase = always
