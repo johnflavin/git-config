@@ -4,6 +4,7 @@
 [user]
 	name = John Flavin
 	email = <flavinj@gmail.com>
+	signingkey = 9438F103
 [push]
 	default = simple
 [alias]
@@ -15,3 +16,7 @@
     l = log --all --graph --oneline --decorate
 [fetch]
 	prune = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg2
