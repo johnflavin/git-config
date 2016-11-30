@@ -6,7 +6,7 @@
 	email = <flavinj@gmail.com>
 	signingkey = 9438F103
 [push]
-	default = simple
+	default = upstream
 [alias]
     st = status
     co = checkout
