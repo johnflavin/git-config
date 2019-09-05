@@ -14,6 +14,11 @@
   com = commit
   br = branch
   l = log --all --graph --oneline --decorate
+  rb = rebase
+  rbi = rebase -i
+  rbm = rebase master
+  rbim = rebase -i master
+  rbmi = rebase -i master
 [fetch]
 	prune = true
 [commit]
