@@ -19,6 +19,12 @@
   rbm = rebase master
   rbim = rebase -i master
   rbmi = rebase -i master
+  rbc = rebase --continue
+  rba = rebase --abort
+  rbo = rebase --onto
+  rbd = rebase develop
+  rbid = rbi develop
+  rbdi = rbi develop
 [fetch]
 	prune = true
 [commit]
