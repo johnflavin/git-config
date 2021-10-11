@@ -16,9 +16,9 @@
   l = log --all --graph --oneline --decorate
   rb = rebase
   rbi = rebase -i
-  rbm = rebase master
-  rbim = rebase -i master
-  rbmi = rebase -i master
+  rbm = rebase main
+  rbim = rebase -i main
+  rbmi = rebase -i main
   rbc = rebase --continue
   rba = rebase --abort
   rbo = rebase --onto
