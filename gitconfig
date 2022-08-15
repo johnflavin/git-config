@@ -10,19 +10,19 @@
 [alias]
   st = status
   co = checkout
-  cob = checkout -b
+  cob = co -b
   com = commit
   br = branch
   l = log --all --graph --oneline --decorate
   rb = rebase
-  rbi = rebase -i
-  rbm = rebase main
-  rbim = rebase -i main
-  rbmi = rebase -i main
-  rbc = rebase --continue
-  rba = rebase --abort
-  rbo = rebase --onto
-  rbd = rebase develop
+  rbi = rb -i
+  rbm = rb main
+  rbim = rbi main
+  rbmi = rbim
+  rbc = rb --continue
+  rba = rb --abort
+  rbo = rb --onto
+  rbd = rb develop
   rbid = rbi develop
   rbdi = rbi develop
 [fetch]
