@@ -27,6 +27,7 @@
   rbd = rb develop
   rbid = rbi develop
   rbdi = rbi develop
+  undo = reset --soft HEAD^
 [fetch]
 	prune = true
 [commit]
