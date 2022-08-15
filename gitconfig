@@ -11,6 +11,8 @@
   st = status
   co = checkout
   cob = co -b
+  sw = switch
+  swc = sw -c
   com = commit
   br = branch
   l = log --all --graph --oneline --decorate
