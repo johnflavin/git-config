@@ -17,6 +17,7 @@
   swm = switch main
   swd = switch develop
   com = commit
+  recom = commit --amend --no-edit
   br = branch
   l = log --all --graph --oneline --decorate
   rb = rebase
