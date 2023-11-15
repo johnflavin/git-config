@@ -11,7 +11,7 @@
 [alias]
   st = status
   co = checkout
-  cob = checkout -b
+  cob = switch -c
   sw = switch
   swc = switch -c
   swm = switch main
