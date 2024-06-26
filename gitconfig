@@ -5,7 +5,7 @@
 [user]
 	name = John Flavin
 	email = <flavinj@gmail.com>
-	signingkey = 9438F103
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJbp8oxrzb6gbjTVyDcdqRSKR88XWZbNqjJt01XqVazO
 [push]
 	default = upstream
 [alias]
@@ -40,7 +40,9 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = /opt/homebrew/bin/gpg
+	format = ssh
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
 [rebase]
 	autoSquash = true
 [pull]
