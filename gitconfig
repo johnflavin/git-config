@@ -1,7 +1,6 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = mate -w
-	pager = delta
 [user]
 	name = John Flavin
 	email = <flavinj@gmail.com>
@@ -50,10 +49,6 @@
 	rebase = true
 [init]
 	defaultBranch = main
-[interactive]
-	diffFilter = delta --color-only
-[delta]
-	navigate = true
 [merge]
 	conflictstyle = diff3
 [diff]
